@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>还书</title>
+		<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="bootstrap/css/bootstrap-theme.css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row clearfix">
+		<div class="col-md-12 column">
+			<ul class="breadcrumb">
+				<li>
+					 <a href="index.html">主页</a>
+				</li>
+				<li>
+					 <a href="jieshu.html">图书馆</a>
+				</li>
+				<li class="active">
+					还书
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-6 column">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							编号
+						</th>
+						<th>
+							已借图书
+						</th>
+						<th>
+							归还时间
+						</th>
+						<th>
+							状态
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					
+					<tr class="success">
+						<td>
+							1
+						</td>
+						<td>
+							简爱
+						</td>
+						<td>
+							30/04/2020
+						</td>
+						<td>
+							未还
+						</td>
+					</tr>
+					<tr class="error">
+						<td>
+							2
+						</td>
+						<td>
+							小王子
+						</td>
+						<td>
+							30/04/2020
+						</td>
+						<td>
+							未还
+						</td>
+					</tr>
+					<tr class="warning">
+						<td>
+							3
+						</td>
+						<td>
+							异乡客
+						</td>
+						<td>
+							30/04/2020
+						</td>
+						<td>
+							未还
+						</td>
+					</tr>
+					<tr class="info">
+						<td>
+							4
+						</td>
+						<td>
+							培根笔记
+						</td>
+						<td>
+							30/04/2020
+						</td>
+						<td>
+							未还
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-6 column">
+			<form role="form">
+				<div class="form-group">
+					 <label for="exampleInputEmail1">要归还的书</label><input type="email" class="form-control" id="exampleInputEmail1" />
+				</div>
+				<div class="form-group">
+					 <label for="exampleInputPassword1">输入密码</label><input type="password" class="form-control" id="exampleInputPassword1" />
+				</div>
+				
+				<div class="checkbox">
+					 <label><input type="checkbox" />选择确认</label>
+				</div> <button type="submit" class="btn btn-default">提交</button>
+			</form>
+		</div>
+	</div>
+</div>
+	</body>
+</html>
